@@ -22,5 +22,10 @@ pipeline {
             }
         }
         */
+        stage('Wrap up'){
+            steps{
+                echo 'emailing job results'
+            }
+        }
     }
 }
